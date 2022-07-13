@@ -1,0 +1,66 @@
+body {
+  background-color:plum;
+   rgb(104, 198, 167);
+}
+
+
+nav,
+footer {
+  background-color:white;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: 0.1em;
+}
+
+.navbar
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height:100px;
+}
+.nav-link
+{
+  margin: 0 0.4em;
+  padding:0.5em;
+  transition:all ease-in-out 0.5s;
+
+}
+.nav link:hover
+{
+  background-color: rgb(196,181,181);
+  color:rgb(76,96,114);
+}
+.hero
+{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+.hero-title
+{
+  font-size:5em;
+  margin-bottom:1em;
+
+}
+.btn
+{
+  padding:0.5em 1em;
+  border-radius:0.5;
+  font-size: 1.5em;
+  margin:1em 0;
+  background-color:rgb(29,82,29);
+  color:white;
+
+}
+  
