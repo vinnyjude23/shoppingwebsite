@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./main.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Shopping app</title>
+    <style>
+    .btn {
+        background-color: DodgerBlue;
+        border: none;
+        color: white;
+        padding: 12px 30px;
+        cursor: pointer;
+        font-size: 20px;
+      }
+      
+      /* Darker background on mouse-over */
+      .btn:hover {
+        background-color: RoyalBlue;
+      }
+</style>
+    
+  </head>
+<body>
+    <nav class="navbar">
+        <a href="" class="nav-link">Comrades shopping</a>
+        <div class="nav-items">
+          <a href="index.html" class="nav-link">Home </a>
+          <a href="logout.html" class="nav-link">Log out</a>
+          <a href="edit.html" class="nav-link">Go to Edit Page </a>
+          </div>
+          </nav>
+
+
+          <p>Download Files:</p>
+<button class="btn"><i class="fa fa-download"></i> Download</button>
+
+  <form action="/action_page.php">
+    <label for="files">Select files:</label>
+    <input type="file" id="files" name="files" multiple><br><br>
+    <input type="submit">
+  </form>
+
+  </body>

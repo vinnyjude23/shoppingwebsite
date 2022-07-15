@@ -1,12 +1,19 @@
-body {
-  background-color:plum;
-   rgb(104, 198, 167);
+* Css code */
+{
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+}
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
+body {
+  background-color: #e0d4db;
+}
 
 nav,
 footer {
-  background-color:white;
+  background-color: #fff;
 }
 
 a {
@@ -22,45 +29,31 @@ h3 {
 
 .navbar
 {
-  display: flex;
+  display:flex;
   justify-content: space-between;
   align-items: center;
-  min-height:100px;
+  min-height: 100px;
 }
 .nav-link
 {
   margin: 0 0.4em;
-  padding:0.5em;
-  transition:all ease-in-out 0.5s;
-
+  padding: 0.5em;
+  transition: all ease-in-out 0.5s;
 }
-.nav link:hover
+.nav-link:hover
 {
-  background-color: rgb(196,181,181);
-  color:rgb(76,96,114);
+  background-color: rgb(196, 181, 181);
+  color: rgb(76, 96, 114);
 }
 .hero
 {
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
 }
 .hero-title
 {
   font-size:5em;
-  margin-bottom:1em;
-
 }
-.btn
-{
-  padding:0.5em 1em;
-  border-radius:0.5;
-  font-size: 1.5em;
-  margin:1em 0;
-  background-color:rgb(29,82,29);
-  color:white;
-
-}
-  
